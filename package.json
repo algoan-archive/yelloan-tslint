@@ -1,0 +1,12 @@
+{
+  "name": "yelloan-tslint",
+  "version": "0.0.1",
+  "description": "Yelloan TSLint ",
+  "main": "index.js",
+  "repository": "https://github.com/yelloan/yelloan-tslint",
+  "author": "ccoeurderoy",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint": "^5.9.1"
+  }
+}
