@@ -1,5 +1,5 @@
 {
-  "name": "yelloan-tslint",
+  "name": "@yelloan/tslint",
   "version": "0.0.1",
   "description": "Yelloan TSLint",
   "main": "tslint.json",
