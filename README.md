@@ -9,6 +9,12 @@
 npm install @yelloan/tslint --save-dev
 ```
 
+or using yarn:
+
+```sh
+yarn add @yelloan/tslint -D
+```
+
 ## Usage
 
 In `tslint.json`:
