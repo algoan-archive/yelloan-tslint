@@ -1,4 +1,4 @@
-# TSLint Config Standard
+# Yelloan TSLint Config
 
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [Yelloan](http://www.yelloan.com/)
@@ -15,7 +15,7 @@ In `tslint.json`:
 
 ```json
 {
-  "extends": "yelloan-tslint"
+  "extends": "@yelloan/tslint/tslint-config"
 }
 ```
 
