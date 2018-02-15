@@ -5,7 +5,6 @@
   ],
   "jsRules": {},
   "rules": {
-    // TypeScript-specific rules
     "adjacent-overload-signatures": true,
     "ban-types": [true, ["Object", "Use {} instead."], ["String"]],
     "member-access": true,
@@ -22,7 +21,7 @@
     "prefer-for-of": true,
     "promise-function-async": true,
     "typedef": [true, "call-signature", "arrow-call-signature", "parameter", "arrow-parameter", "property-declaration",
-      "variable-declaration", "member-variable-declaration", "object-destructuring", "array-destructuring"], // check if necessary
+      "variable-declaration", "member-variable-declaration", "object-destructuring", "array-destructuring"],
     "typedef-whitespace": [
       true,
       {
@@ -39,9 +38,8 @@
         "property-declaration": "onespace",
         "variable-declaration": "onespace"
       }
-    ], // check if necessary, not finished
+    ],
     "unified-signatures": true,
-    // Functionality rules
     "await-promise": true,
     "ban-comma-operator": true,
     "curly": true,
@@ -88,12 +86,15 @@
     "prefer-object-spread": true,
     "radix": true,
     "restrict-plus-operands": true,
-    "strict-boolean-expressions": true,
+    "strict-boolean-expressions": [
+      true,
+      "allow-string",
+      "allow-number"
+    ],
     "strict-type-predicates": true,
     "switch-default": true,
     "triple-equals": true,
     "use-default-type-parameter": true,
-    // Maintainability rules
     "cyclomatic-complexity": true,
     "eofline": true,
     "indent": [true, "spaces", 2],
@@ -107,7 +108,6 @@
     "no-require-imports": true,
     "prefer-const": true,
     "prefer-readonly": true,
-    // Style rules
     "align": [true, "parameters", "arguments", "statements", "members", "elements"],
     "array-type": [true, "array"],
     "arrow-parens": true,
