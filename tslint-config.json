@@ -73,7 +73,9 @@
     "no-string-literal": true,
     "no-submodule-imports": false,
     "no-switch-case-fall-through": true,
-    "no-this-assignment": true,
+    "no-this-assignment": [true, {
+      "allowed-names": ["^self$"]
+    }],
     "no-unbound-method": true,
     "no-unnecessary-class": true,
     "no-unsafe-any": true,
