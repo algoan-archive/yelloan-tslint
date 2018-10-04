@@ -20,8 +20,16 @@
     "only-arrow-functions": [true, "allow-named-functions"],
     "prefer-for-of": true,
     "promise-function-async": true,
-    "typedef": [true, "call-signature", "arrow-call-signature", "parameter", "arrow-parameter", "property-declaration",
-      "variable-declaration", "member-variable-declaration", "object-destructuring", "array-destructuring"],
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
     "typedef-whitespace": [
       true,
       {
@@ -73,9 +81,7 @@
     "no-string-literal": true,
     "no-submodule-imports": false,
     "no-switch-case-fall-through": true,
-    "no-this-assignment": [true, {
-      "allowed-names": ["^self$"]
-    }],
+    "no-this-assignment": true,
     "no-unbound-method": true,
     "no-unnecessary-class": true,
     "no-unsafe-any": true,
