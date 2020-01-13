@@ -1,6 +1,6 @@
 {
   "name": "@yelloan/tslint",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Yelloan TSLint",
   "main": "tslint.json",
   "repository": "https://github.com/yelloan/yelloan-tslint",
